@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The MIT License (MIT)
+
+Copyright (c) 2016-latest Omnit Theme
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<style-scheme id="omni" name="Omni" version="1.0">
+	<author>Rafael Câmara</author>
+	<_description>A dark theme for Gedit</_description>
+
+	<!-- Dracula colors -->
+	<color name="background" value="#191622"/>
+	<color name="current-line" value="#2A2637"/>
+	<color name="selection" value="#2A2637"/>
+	<color name="foreground" value="#E1E1E6"/>
+	<color name="comment" value="#483C67"/>
+	<color name="blue" value="#78D1E1"/>
+	<color name="green" value="#67e480"/>
+	<color name="orange" value="#E89E64"/>
+	<color name="pink" value="#ff79c6"/>
+	<color name="purple" value="#988bc7"/>
+	<color name="red" value="#E96379"/>
+	<color name="yellow" value="#e7de79"/>
+
+	<!-- Helper colors -->
+	<color name="white" value="#ffffff"/>
+	<color name="bone-white" value="#f8f8f0"/>
+	<color name="weird-gray" value="#483c67"/>
+
+	<style name="text" foreground="bone-white" background="background"/>
+	<style name="selection" background="selection"/>
+	<style name="cursor" foreground="white" background="white"/>
+	<style name="current-line" foreground="current-line" background="current-line"/>
+	<style name="line-numbers" foreground="weird-gray" background="background"/>
+
+	<style name="bracket-match" foreground="bone-white" background="background" underline="true"/>
+	<style name="search-match" foreground="red" background="background" bold="true"/>
+	<style name="search-match" foreground="selection" background="yellow"/>
+  <style name="background-pattern" background="#2f313e"/>
+
+
+	<style name="def:function" foreground="green"/>
+	<style name="def:identifier" foreground="pink"/>
+	<style name="def:keyword" foreground="pink"/>
+	<style name="def:number" foreground="blue" />
+	<style name="def:decimal" foreground="blue"/>
+	<style name="def:base-n-integer" foreground="blue"/>
+	<style name="def:boolean" foreground="blue"/>
+	<style name="def:floating-point" foreground="blue"/>
+	<style name="def:string" foreground="yellow"/>
+	<style name="def:variable" foreground="blue"/>
+	<style name="def:special-char" foreground="white"/>
+	<style name="def:special-character" foreground="white"/>
+	<style name="def:special-constant" foreground="blue"/>
+	<style name="def:builtin" foreground="blue"/>
+	<style name="def:type" foreground="green"/>
+	<style name="def:preprocessor" foreground="green"/>
+	<style name="def:comment" foreground="comment"/>
+	<style name="def:doc-comment-element" foreground="comment"/>
+
+	<style name="def:specials" foreground="#f8f8f2"/>
+	<style name="def:statement" foreground="blue"/>
+	<style name="def:net-address-in-comment" foreground="comment" underline="true" italic="true"/>
+	<style name="def:underlined" use-style="def:net-address-in-comment"/>
+
+	<!-- Styles XML -->
+	<style name="xml:attribute-name" foreground="green"/>
+  <style name="xml:element-name" use-style="def:keyword"/>
+
+	<!-- Python-specific stuff -->
+	<style name="python:base-n-integer"       use-style="def:base-n-integer"/>
+  <style name="python:boolean"              use-style="def:boolean"/>
+  <style name="python:builtin-constant"     use-style="def:special-constant"/>
+  <style name="python:builtin-function"     use-style="def:builtin"/>
+  <style name="python:builtin-object"       use-style="def:type"/>
+  <style name="python:escape-char"          use-style="def:special-char"/>
+  <style name="python:decimal"              use-style="def:decimal"/>
+  <style name="python:floating-point"       use-style="def:floating-point"/>
+  <style name="python:keyword"              use-style="def:keyword"/>
+  <style name="python:module-handler"       use-style="def:preprocessor"/>
+  <style name="python:multiline-string"     use-style="def:string"/>
+  <style name="python:string-conversion"    use-style="def:string"/>
+  <style name="python:special-variable"     use-style="def:variable"/>
+
+	<style name="python:function-name" foreground="green"/>
+	<style name="python:decorator" foreground="green"/>
+	<style name="python:class-name" foreground="pink"/>
+
+	<style background="#67e480" bold="true" foreground="bone-white" name="diff:added-line"/>
+	<style foreground="#ed4556" name="diff:removed-line"/>
+	<style background="#78D1E1" foreground="bone-white" name="diff:changed-line"/>
+
+</style-scheme>
