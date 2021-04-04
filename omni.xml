@@ -27,7 +27,7 @@ SOFTWARE.
 	<author>Rafael Câmara</author>
 	<_description>A dark theme for Gedit</_description>
 
-	<!-- Dracula colors -->
+	<!-- Omni colors -->
 	<color name="background" value="#191622"/>
 	<color name="current-line" value="#2A2637"/>
 	<color name="selection" value="#2A2637"/>
